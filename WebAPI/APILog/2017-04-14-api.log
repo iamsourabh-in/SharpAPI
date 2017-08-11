@@ -1,0 +1,325 @@
+2017-04-14 12:15:40.7115|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:15:55.8005|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:16:05.7045|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:16:09.0345|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:16:10.0285|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:16:10.8925|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:16:11.8425|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:16:22.8115|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:17:42.8155|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/task/1
+Token: 2c951375-4baf-4098-89e6-c850d2fa18c3
+Controller : WebAPI.Controllers.TaskController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1}]}
+
+2017-04-14 12:17:51.3440|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:17:56.0745|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:17:58.3235|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:17:58.6385|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:17:59.0190|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:17:59.5360|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:17:59.8460|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:00.0505|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:00.3555|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:00.5105|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:00.6705|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:00.8505|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:01.0355|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:01.3230|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:01.6130|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:01.7830|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:18:01.9630|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:02.2335|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:02.4610|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:02.6485|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:02.8360|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:03.0185|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:03.3685|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:03.5360|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:03.9510|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:04.2810|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:42.6480|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:43.0280|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:43.4650|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:43.7375|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:43.8925|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:44.0625|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:44.2125|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:19:44.5550|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-04-14 12:23:40.6585|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1003
+Token: 4c53b987-56a9-435e-b31a-f2c4d0b9ab8c
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1003}]}
+
+2017-04-14 12:23:46.4635|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1003
+Token: bcfcbb50-bca8-4b47-bc49-843c75a68a0d
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1003}]}
+
+2017-04-14 12:47:37.3040|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

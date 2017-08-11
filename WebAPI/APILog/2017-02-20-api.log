@@ -1,0 +1,875 @@
+2017-02-20 00:06:53.3150|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 00:08:04.5830|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 00:15:09.1470|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 00:15:21.8850|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 00:22:23.2340|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 00:27:10.8010|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 00:33:00.2910|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 00:34:40.1170|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 01:16:53.3490|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 02:21:17.5230|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 02:23:10.6960|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 02:24:18.0870|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 02:28:52.8390|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/user/CreateUser
+Controller : WebAPI.Controllers.UserController
+Action : Post
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":0,"Title":null,"FirstName":null,"MiddleName":null,"LastName":null,"Email":"asd@asd.com","Password":"asdasdas","DateOfBirth":null,"RoleID":null,"Gender":null,"Created":"2017-02-19T20:58:38.62Z","CreatedBy":null,"Updated":null,"UpdatedBy":null,"Enabled":false,"Position":null,"Reference":null,"Mobile":null}}]}
+
+2017-02-20 02:31:10.1050|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 02:32:34.8810|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 02:33:26.9270|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/user/CreateUser
+Controller : WebAPI.Controllers.UserController
+Action : Post
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":0,"Title":null,"FirstName":null,"MiddleName":null,"LastName":null,"Email":"ankush@test.com","Password":"asdasd","DateOfBirth":null,"RoleID":null,"Gender":null,"Created":"2017-02-19T21:03:26.749Z","CreatedBy":null,"Updated":null,"UpdatedBy":null,"Enabled":false,"Position":null,"Reference":null,"Mobile":"23456789141231"}}]}
+
+2017-02-20 07:22:05.7510|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 07:23:08.7530|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 07:26:58.7350|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 07:28:00.6620|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 08:30:36.3680|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 08:35:22.3120|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 08:38:29.9500|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 09:23:47.1780|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 10:47:07.1780|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 10:56:57.9460|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 10:58:59.0680|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 10:59:34.1950|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:07:17.1230|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:11:06.3180|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:11:33.6840|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:12:38.3610|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:12:57.3760|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:14:06.0800|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:21:34.9650|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:22:48.1090|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:24:46.1480|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:25:37.8250|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:27:17.2900|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:29:09.7140|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:30:24.5840|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:30:31.4220|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:31:12.9740|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:32:10.3100|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:33:30.4850|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:35:24.2380|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:35:33.4770|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:39:25.8290|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:40:41.2390|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:41:53.9230|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:43:52.2130|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:45:29.7900|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:47:12.4920|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:48:03.9620|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:48:58.4560|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:49:30.4790|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:53:16.2300|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:55:42.7860|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:56:56.0560|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 11:57:35.6720|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 12:02:00.3200|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 12:02:25.0280|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 12:03:11.3260|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/user/CreateUser
+Controller : WebAPI.Controllers.UserController
+Action : Post
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":0,"Title":null,"FirstName":"Sunit","MiddleName":null,"LastName":"Kumar","Email":"sunit@kumar.com","Password":"1234567890","UpdatedBy":null,"Position":null,"Reference":null,"Mobile":"1234567890"}}]}
+
+2017-02-20 12:07:05.8210|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 12:07:18.8710|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 12:08:41.3050|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 12:11:31.1850|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 13:04:21.5200|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 13:04:29.8100|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:17:42.4910|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:32:08.1330|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:32:20.1320|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:32:28.3370|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:32:45.4750|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:32:46.7920|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:32:50.8860|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:33:36.9500|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:33:42.2920|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:34:12.5040|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:34:16.3050|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:34:37.4610|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:34:40.5210|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:35:07.8940|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:47:34.9550|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:47:36.5820|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:47:43.0300|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:47:52.3210|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:48:51.6650|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/user/CreateUser
+Controller : WebAPI.Controllers.UserController
+Action : Post
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"user":{"Id":0,"Title":null,"FirstName":"Saurabh","MiddleName":null,"LastName":"Gupta","Email":"Saurabh.Gupta@gmail.com","Password":"1234567890","UpdatedBy":null,"Position":null,"Reference":null,"Mobile":"1234567890"}}]}
+
+2017-02-20 15:49:52.9310|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:50:00.9920|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:50:21.7710|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 15:58:32.0310|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:14:35.4600|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:14:38.2620|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:14:40.9600|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:14:53.2460|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:16:03.7630|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:16:56.8800|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:18:17.8080|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:18:24.6940|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:20:52.2670|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:26:54.6570|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:27:57.8570|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:28:39.8660|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 16:34:15.4480|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 19:00:31.0680|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 19:59:03.8880|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:53:52.4190|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:55:15.5070|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:55:17.5880|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:55:20.2910|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:55:57.5650|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:02.6090|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:13.7220|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:19.3860|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:21.3890|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:24.4660|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:35.9120|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:37.5100|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:56:51.5380|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:57:31.7270|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 20:57:38.3320|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 21:02:18.8700|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 21:13:09.2090|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/user
+Controller : WebAPI.Controllers.UserController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-02-20 21:13:43.3930|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

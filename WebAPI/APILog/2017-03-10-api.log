@@ -1,0 +1,16 @@
+2017-03-10 17:12:35.6180|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-10 17:13:18.6790|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+

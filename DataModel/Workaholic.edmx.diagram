@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0c3fb282474e45c8b95e56fb4da154fb" Name="Diagram1">
+        <EntityTypeShape EntityType="WORKAHOLICModel.CommunicationType" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Company" Width="1.5" PointX="0.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Employee" Width="1.5" PointX="3" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.EmployeeRole" Width="1.5" PointX="5.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Entity" Width="1.5" PointX="6" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Epic" Width="1.5" PointX="5.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.EpicAuditLog" Width="1.5" PointX="10.5" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Feature" Width="1.5" PointX="10.5" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.FeatureAuditLog" Width="1.5" PointX="12.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Lead" Width="1.5" PointX="8.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.LeadCommunication" Width="1.5" PointX="5.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Permission" Width="1.5" PointX="8.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Project" Width="1.5" PointX="10.5" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.ProjectDocument" Width="1.5" PointX="12.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Role" Width="1.5" PointX="3" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Status" Width="1.5" PointX="3" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Task" Width="1.5" PointX="15.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.TaskAuditLog" Width="1.5" PointX="18" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.TaskProgress" Width="1.5" PointX="21" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Team" Width="1.5" PointX="3" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.TeamMember" Width="1.5" PointX="8.25" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.TeamProject" Width="1.5" PointX="12.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WORKAHOLICModel.Token" Width="1.5" PointX="5.25" PointY="46.375" IsExpanded="true" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__LeadCommu__Commu__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Employee__Compan__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Lead__CompanyId__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Project__Company__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Role__CompanyId__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Status__CompanyI__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Team__CompanyId__607251E5" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__EmployeeR__Emplo__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Epic__CreatedBy__1332DBDC" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Epic__ModifiedBy__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Epic__OwnerEmpId__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__EpicAudit__Creat__3493CFA7" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Feature__Created__2A164134" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Feature__Modifie__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Feature__OwnerEm__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__FeatureAu__Creat__58D1301D" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Lead__CreatedBy__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Lead__ModifiedBy__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Lead__OwnerEmpID__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__LeadCommu__Creat__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__LeadCommu__Modif__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Permissio__Creat__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Permissio__Modif__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Project__Created__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Project__Modifie__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Project__OwnerEm__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__ProjectDo__Creat__531856C7" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__ProjectDo__Modif__540C7B00" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__ProjectDo__Owner__51300E55" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Task__CreatedBy__3F115E1A" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Task__ModifiedBy__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Task__OwnerEmpId__40F9A68C" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TaskAudit__Creat__4C6B5938" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TaskProgr__Creat__47A6A41B" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TeamMembe__EmpId__690797E6" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Token__EmpId__5BAD9CC8" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__EmployeeR__RoleI__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Permissio__Entit__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Epic__ProjectId__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Epic__Status__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__EpicAudit__EpicI__32AB8735" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Feature__EpicId__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Feature__Status__2739D489" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__FeatureAu__Featu__56E8E7AB" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Task__FeatureId__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Project__LeadId__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Permissio__RoleI__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Project__Status__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__ProjectDo__Proje__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TeamProje__Proje__6CD828CA" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__Task__Status__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TaskAudit__TaskI__4A8310C6" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TaskProgr__TaskI__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TeamMembe__TeamI__681373AD" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__TeamProje__TeamI__6BE40491" ManuallyRouted="false" />
+        <AssociationConnector Association="WORKAHOLICModel.FK__ProjectDo__TaskI__73852659" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

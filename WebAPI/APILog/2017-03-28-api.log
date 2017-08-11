@@ -1,0 +1,189 @@
+2017-03-28 14:36:19.2335|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: db9498e2-d832-444f-803a-2fdfe09279fd
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 14:36:57.4415|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: db9498e2-d832-444f-803a-2fdfe09279fd
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 16:08:40.3160|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-28 16:09:29.3870|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 16:10:19.3950|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: 74227fee-2cee-4459-a8ec-b824df1ee396
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 16:11:27.3420|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: 74227fee-2cee-4459-a8ec-b824df1ee396
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 16:12:51.9440|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 16:19:20.6375|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 18:30:26.8195|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 19:03:33.8680|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 19:03:58.9010|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: db9498e2-d832-444f-803a-2fdfe09279fd
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 19:04:21.0120|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: 74227fee-2cee-4459-a8ec-b824df1ee396
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 19:04:29.9730|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-28 19:04:42.3500|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: 51ee3c1f-96e9-431c-9f28-21064bad6cff
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 19:06:15.1890|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: 51ee3c1f-96e9-431c-9f28-21064bad6cff
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 19:11:39.6740|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1001
+Token: 51ee3c1f-96e9-431c-9f28-21064bad6cff
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1001}]}
+
+2017-03-28 20:59:57.7555|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1003
+Token: 51ee3c1f-96e9-431c-9f28-21064bad6cff
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1003}]}
+
+2017-03-28 21:00:07.6770|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1003
+Token: 51ee3c1f-96e9-431c-9f28-21064bad6cff
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1003}]}
+
+2017-03-28 21:00:15.7545|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: 51ee3c1f-96e9-431c-9f28-21064bad6cff
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 21:05:16.2025|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-28 21:06:45.5170|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: ed59c0ff-9343-4fc8-ac65-ed553efb52ef
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-28 21:07:56.7520|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1003
+Token: ed59c0ff-9343-4fc8-ac65-ed553efb52ef
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1003}]}
+
+2017-03-28 21:09:40.9995|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-28 23:39:14.4195|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-28 23:44:50.5030|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/authenticate
+Controller : WebAPI.Controllers.AuthenticateController
+Action : Authenticate
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

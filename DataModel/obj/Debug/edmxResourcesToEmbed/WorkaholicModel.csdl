@@ -1,0 +1,1327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WORKAHOLICModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CommunicationType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TypeCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="LeadCommunications" Relationship="Self.FK__LeadCommu__Commu__4222D4EF" FromRole="CommunicationType" ToRole="LeadCommunication" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Alias" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="RegistrationNo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK__Employee__Compan__21B6055D" FromRole="Company" ToRole="Employee" />
+    <NavigationProperty Name="Leads" Relationship="Self.FK__Lead__CompanyId__36B12243" FromRole="Company" ToRole="Lead" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK__Project__Company__6FE99F9F" FromRole="Company" ToRole="Project" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK__Role__CompanyId__15502E78" FromRole="Company" ToRole="Role" />
+    <NavigationProperty Name="Status" Relationship="Self.FK__Status__CompanyI__6D0D32F4" FromRole="Company" ToRole="Status" />
+    <NavigationProperty Name="Teams" Relationship="Self.FK__Team__CompanyId__607251E5" FromRole="Company" ToRole="Team" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int64" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DOB" Type="DateTime" Precision="3" />
+    <Property Name="Gender" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Contact" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="IsEmailVerified" Type="Boolean" Nullable="false" />
+    <Property Name="IsContactVerified" Type="Boolean" Nullable="false" />
+    <Property Name="Alias" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="EmployeeCode" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Company" Relationship="Self.FK__Employee__Compan__21B6055D" FromRole="Employee" ToRole="Company" />
+    <NavigationProperty Name="EmployeeRoles" Relationship="Self.FK__EmployeeR__Emplo__4AB81AF0" FromRole="Employee" ToRole="EmployeeRole" />
+    <NavigationProperty Name="Epics" Relationship="Self.FK__Epic__CreatedBy__1332DBDC" FromRole="Employee" ToRole="Epic" />
+    <NavigationProperty Name="Epics1" Relationship="Self.FK__Epic__ModifiedBy__14270015" FromRole="Employee" ToRole="Epic" />
+    <NavigationProperty Name="Epics2" Relationship="Self.FK__Epic__OwnerEmpId__151B244E" FromRole="Employee" ToRole="Epic" />
+    <NavigationProperty Name="EpicAuditLogs" Relationship="Self.FK__EpicAudit__Creat__3493CFA7" FromRole="Employee" ToRole="EpicAuditLog" />
+    <NavigationProperty Name="Features" Relationship="Self.FK__Feature__Created__2A164134" FromRole="Employee" ToRole="Feature" />
+    <NavigationProperty Name="Features1" Relationship="Self.FK__Feature__Modifie__2B0A656D" FromRole="Employee" ToRole="Feature" />
+    <NavigationProperty Name="Features2" Relationship="Self.FK__Feature__OwnerEm__2BFE89A6" FromRole="Employee" ToRole="Feature" />
+    <NavigationProperty Name="FeatureAuditLogs" Relationship="Self.FK__FeatureAu__Creat__58D1301D" FromRole="Employee" ToRole="FeatureAuditLog" />
+    <NavigationProperty Name="Leads" Relationship="Self.FK__Lead__CreatedBy__3A81B327" FromRole="Employee" ToRole="Lead" />
+    <NavigationProperty Name="Leads1" Relationship="Self.FK__Lead__ModifiedBy__3B75D760" FromRole="Employee" ToRole="Lead" />
+    <NavigationProperty Name="Leads2" Relationship="Self.FK__Lead__OwnerEmpID__38996AB5" FromRole="Employee" ToRole="Lead" />
+    <NavigationProperty Name="LeadCommunications" Relationship="Self.FK__LeadCommu__Creat__46E78A0C" FromRole="Employee" ToRole="LeadCommunication" />
+    <NavigationProperty Name="LeadCommunications1" Relationship="Self.FK__LeadCommu__Modif__47DBAE45" FromRole="Employee" ToRole="LeadCommunication" />
+    <NavigationProperty Name="Permissions" Relationship="Self.FK__Permissio__Creat__32E0915F" FromRole="Employee" ToRole="Permission" />
+    <NavigationProperty Name="Permissions1" Relationship="Self.FK__Permissio__Modif__33D4B598" FromRole="Employee" ToRole="Permission" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK__Project__Created__75A278F5" FromRole="Employee" ToRole="Project" />
+    <NavigationProperty Name="Projects1" Relationship="Self.FK__Project__Modifie__76969D2E" FromRole="Employee" ToRole="Project" />
+    <NavigationProperty Name="Projects2" Relationship="Self.FK__Project__OwnerEm__787EE5A0" FromRole="Employee" ToRole="Project" />
+    <NavigationProperty Name="ProjectDocuments" Relationship="Self.FK__ProjectDo__Creat__531856C7" FromRole="Employee" ToRole="ProjectDocument" />
+    <NavigationProperty Name="ProjectDocuments1" Relationship="Self.FK__ProjectDo__Modif__540C7B00" FromRole="Employee" ToRole="ProjectDocument" />
+    <NavigationProperty Name="ProjectDocuments2" Relationship="Self.FK__ProjectDo__Owner__51300E55" FromRole="Employee" ToRole="ProjectDocument" />
+    <NavigationProperty Name="Tasks" Relationship="Self.FK__Task__CreatedBy__3F115E1A" FromRole="Employee" ToRole="Task" />
+    <NavigationProperty Name="Tasks1" Relationship="Self.FK__Task__ModifiedBy__40058253" FromRole="Employee" ToRole="Task" />
+    <NavigationProperty Name="Tasks2" Relationship="Self.FK__Task__OwnerEmpId__40F9A68C" FromRole="Employee" ToRole="Task" />
+    <NavigationProperty Name="TaskAuditLogs" Relationship="Self.FK__TaskAudit__Creat__4C6B5938" FromRole="Employee" ToRole="TaskAuditLog" />
+    <NavigationProperty Name="TaskProgresses" Relationship="Self.FK__TaskProgr__Creat__47A6A41B" FromRole="Employee" ToRole="TaskProgress" />
+    <NavigationProperty Name="TeamMembers" Relationship="Self.FK__TeamMembe__EmpId__690797E6" FromRole="Employee" ToRole="TeamMember" />
+    <NavigationProperty Name="Tokens" Relationship="Self.FK__Token__EmpId__5BAD9CC8" FromRole="Employee" ToRole="Token" />
+  </EntityType>
+  <EntityType Name="EmployeeRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int64" Nullable="false" />
+    <Property Name="RoleID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__EmployeeR__Emplo__4AB81AF0" FromRole="EmployeeRole" ToRole="Employee" />
+    <NavigationProperty Name="Role" Relationship="Self.FK__EmployeeR__RoleI__4BAC3F29" FromRole="EmployeeRole" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Entity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SuperAdminReq" Type="Boolean" />
+    <Property Name="AdminReq" Type="Boolean" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Permissions" Relationship="Self.FK__Permissio__Entit__300424B4" FromRole="Entity" ToRole="Permission" />
+  </EntityType>
+  <EntityType Name="Epic">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectId" Type="Int64" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Priority" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int64" Nullable="false" />
+    <Property Name="Scheduled" Type="DateTime" Precision="3" />
+    <Property Name="Completion" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" />
+    <Property Name="OwnerEmpId" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Epic__CreatedBy__1332DBDC" FromRole="Epic" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__Epic__ModifiedBy__14270015" FromRole="Epic" ToRole="Employee" />
+    <NavigationProperty Name="Employee2" Relationship="Self.FK__Epic__OwnerEmpId__151B244E" FromRole="Epic" ToRole="Employee" />
+    <NavigationProperty Name="Project" Relationship="Self.FK__Epic__ProjectId__0C85DE4D" FromRole="Epic" ToRole="Project" />
+    <NavigationProperty Name="Status1" Relationship="Self.FK__Epic__Status__10566F31" FromRole="Epic" ToRole="Status" />
+    <NavigationProperty Name="EpicAuditLogs" Relationship="Self.FK__EpicAudit__EpicI__32AB8735" FromRole="Epic" ToRole="EpicAuditLog" />
+    <NavigationProperty Name="Features" Relationship="Self.FK__Feature__EpicId__236943A5" FromRole="Epic" ToRole="Feature" />
+  </EntityType>
+  <EntityType Name="EpicAuditLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EpicId" Type="Int64" Nullable="false" />
+    <Property Name="Action" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__EpicAudit__Creat__3493CFA7" FromRole="EpicAuditLog" ToRole="Employee" />
+    <NavigationProperty Name="Epic" Relationship="Self.FK__EpicAudit__EpicI__32AB8735" FromRole="EpicAuditLog" ToRole="Epic" />
+  </EntityType>
+  <EntityType Name="Feature">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EpicId" Type="Int64" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Priority" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int64" Nullable="false" />
+    <Property Name="Scheduled" Type="DateTime" Precision="3" />
+    <Property Name="Completion" Type="Int32" Nullable="false" />
+    <Property Name="QoutedHours" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" />
+    <Property Name="OwnerEmpId" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Feature__Created__2A164134" FromRole="Feature" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__Feature__Modifie__2B0A656D" FromRole="Feature" ToRole="Employee" />
+    <NavigationProperty Name="Employee2" Relationship="Self.FK__Feature__OwnerEm__2BFE89A6" FromRole="Feature" ToRole="Employee" />
+    <NavigationProperty Name="Epic" Relationship="Self.FK__Feature__EpicId__236943A5" FromRole="Feature" ToRole="Epic" />
+    <NavigationProperty Name="Status1" Relationship="Self.FK__Feature__Status__2739D489" FromRole="Feature" ToRole="Status" />
+    <NavigationProperty Name="FeatureAuditLogs" Relationship="Self.FK__FeatureAu__Featu__56E8E7AB" FromRole="Feature" ToRole="FeatureAuditLog" />
+    <NavigationProperty Name="Tasks" Relationship="Self.FK__Task__FeatureId__37703C52" FromRole="Feature" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="FeatureAuditLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FeatureId" Type="Int64" Nullable="false" />
+    <Property Name="Action" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__FeatureAu__Creat__58D1301D" FromRole="FeatureAuditLog" ToRole="Employee" />
+    <NavigationProperty Name="Feature" Relationship="Self.FK__FeatureAu__Featu__56E8E7AB" FromRole="FeatureAuditLog" ToRole="Feature" />
+  </EntityType>
+  <EntityType Name="Lead">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int64" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DOB" Type="DateTime" Precision="3" />
+    <Property Name="Gender" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="Alias" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="OwnerEmpID" Type="Int64" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" />
+    <NavigationProperty Name="Company" Relationship="Self.FK__Lead__CompanyId__36B12243" FromRole="Lead" ToRole="Company" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Lead__CreatedBy__3A81B327" FromRole="Lead" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__Lead__ModifiedBy__3B75D760" FromRole="Lead" ToRole="Employee" />
+    <NavigationProperty Name="Employee2" Relationship="Self.FK__Lead__OwnerEmpID__38996AB5" FromRole="Lead" ToRole="Employee" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK__Project__LeadId__70DDC3D8" FromRole="Lead" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="LeadCommunication">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" />
+    <Property Name="CommunicationTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DefaultEmail" Type="Boolean" Nullable="false" />
+    <Property Name="DefaultMobile" Type="Boolean" Nullable="false" />
+    <Property Name="DefaultAddress" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" />
+    <NavigationProperty Name="CommunicationType" Relationship="Self.FK__LeadCommu__Commu__4222D4EF" FromRole="LeadCommunication" ToRole="CommunicationType" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__LeadCommu__Creat__46E78A0C" FromRole="LeadCommunication" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__LeadCommu__Modif__47DBAE45" FromRole="LeadCommunication" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Permission">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="Int64" Nullable="false" />
+    <Property Name="EntityId" Type="Int32" Nullable="false" />
+    <Property Name="Create" Type="Boolean" Nullable="false" />
+    <Property Name="Read" Type="Boolean" Nullable="false" />
+    <Property Name="Update" Type="Boolean" Nullable="false" />
+    <Property Name="Remove" Type="Boolean" Nullable="false" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" Nullable="false" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Permissio__Creat__32E0915F" FromRole="Permission" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__Permissio__Modif__33D4B598" FromRole="Permission" ToRole="Employee" />
+    <NavigationProperty Name="Entity" Relationship="Self.FK__Permissio__Entit__300424B4" FromRole="Permission" ToRole="Entity" />
+    <NavigationProperty Name="Role" Relationship="Self.FK__Permissio__RoleI__2F10007B" FromRole="Permission" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int64" Nullable="false" />
+    <Property Name="LeadId" Type="Int64" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Alias" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Status" Type="Int64" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" />
+    <Property Name="Begin" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="OwnerEmpId" Type="Int64" />
+    <NavigationProperty Name="Company" Relationship="Self.FK__Project__Company__6FE99F9F" FromRole="Project" ToRole="Company" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Project__Created__75A278F5" FromRole="Project" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__Project__Modifie__76969D2E" FromRole="Project" ToRole="Employee" />
+    <NavigationProperty Name="Employee2" Relationship="Self.FK__Project__OwnerEm__787EE5A0" FromRole="Project" ToRole="Employee" />
+    <NavigationProperty Name="Epics" Relationship="Self.FK__Epic__ProjectId__0C85DE4D" FromRole="Project" ToRole="Epic" />
+    <NavigationProperty Name="Lead" Relationship="Self.FK__Project__LeadId__70DDC3D8" FromRole="Project" ToRole="Lead" />
+    <NavigationProperty Name="Status1" Relationship="Self.FK__Project__Status__73BA3083" FromRole="Project" ToRole="Status" />
+    <NavigationProperty Name="ProjectDocuments" Relationship="Self.FK__ProjectDo__Proje__4F47C5E3" FromRole="Project" ToRole="ProjectDocument" />
+    <NavigationProperty Name="TeamProjects" Relationship="Self.FK__TeamProje__Proje__6CD828CA" FromRole="Project" ToRole="TeamProject" />
+  </EntityType>
+  <EntityType Name="ProjectDocument">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectId" Type="Int64" Nullable="false" />
+    <Property Name="Data" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Note" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FileXtention" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Rejected" Type="Boolean" Nullable="false" />
+    <Property Name="OwnerEmpID" Type="Int64" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__ProjectDo__Creat__531856C7" FromRole="ProjectDocument" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__ProjectDo__Modif__540C7B00" FromRole="ProjectDocument" ToRole="Employee" />
+    <NavigationProperty Name="Employee2" Relationship="Self.FK__ProjectDo__Owner__51300E55" FromRole="ProjectDocument" ToRole="Employee" />
+    <NavigationProperty Name="Project" Relationship="Self.FK__ProjectDo__Proje__4F47C5E3" FromRole="ProjectDocument" ToRole="Project" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int64" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Company" Relationship="Self.FK__Role__CompanyId__15502E78" FromRole="Role" ToRole="Company" />
+    <NavigationProperty Name="EmployeeRoles" Relationship="Self.FK__EmployeeR__RoleI__4BAC3F29" FromRole="Role" ToRole="EmployeeRole" />
+    <NavigationProperty Name="Permissions" Relationship="Self.FK__Permissio__RoleI__2F10007B" FromRole="Role" ToRole="Permission" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int64" />
+    <Property Name="Value" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ValueFor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Company" Relationship="Self.FK__Status__CompanyI__6D0D32F4" FromRole="Status" ToRole="Company" />
+    <NavigationProperty Name="Epics" Relationship="Self.FK__Epic__Status__10566F31" FromRole="Status" ToRole="Epic" />
+    <NavigationProperty Name="Features" Relationship="Self.FK__Feature__Status__2739D489" FromRole="Status" ToRole="Feature" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK__Project__Status__73BA3083" FromRole="Status" ToRole="Project" />
+    <NavigationProperty Name="Tasks" Relationship="Self.FK__Task__Status__3B40CD36" FromRole="Status" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="Task">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FeatureId" Type="Int64" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <Property Name="Priority" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int64" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="Completion" Type="Int32" Nullable="false" />
+    <Property Name="EstimatedHours" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <Property Name="Modified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int64" />
+    <Property Name="OwnerEmpId" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Task__CreatedBy__3F115E1A" FromRole="Task" ToRole="Employee" />
+    <NavigationProperty Name="Employee1" Relationship="Self.FK__Task__ModifiedBy__40058253" FromRole="Task" ToRole="Employee" />
+    <NavigationProperty Name="Employee2" Relationship="Self.FK__Task__OwnerEmpId__40F9A68C" FromRole="Task" ToRole="Employee" />
+    <NavigationProperty Name="Feature" Relationship="Self.FK__Task__FeatureId__37703C52" FromRole="Task" ToRole="Feature" />
+    <NavigationProperty Name="Status1" Relationship="Self.FK__Task__Status__3B40CD36" FromRole="Task" ToRole="Status" />
+    <NavigationProperty Name="TaskAuditLogs" Relationship="Self.FK__TaskAudit__TaskI__4A8310C6" FromRole="Task" ToRole="TaskAuditLog" />
+    <NavigationProperty Name="TaskProgresses" Relationship="Self.FK__TaskProgr__TaskI__43D61337" FromRole="Task" ToRole="TaskProgress" />
+  </EntityType>
+  <EntityType Name="TaskAuditLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskId" Type="Int64" Nullable="false" />
+    <Property Name="Action" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__TaskAudit__Creat__4C6B5938" FromRole="TaskAuditLog" ToRole="Employee" />
+    <NavigationProperty Name="Task" Relationship="Self.FK__TaskAudit__TaskI__4A8310C6" FromRole="TaskAuditLog" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="TaskProgress">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskId" Type="Int64" Nullable="false" />
+    <Property Name="Progress" Type="Int32" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Dated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="Int64" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__TaskProgr__Creat__47A6A41B" FromRole="TaskProgress" ToRole="Employee" />
+    <NavigationProperty Name="Task" Relationship="Self.FK__TaskProgr__TaskI__43D61337" FromRole="TaskProgress" ToRole="Task" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int64" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Alias" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Enabled" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Company" Relationship="Self.FK__Team__CompanyId__607251E5" FromRole="Team" ToRole="Company" />
+    <NavigationProperty Name="TeamMembers" Relationship="Self.FK__TeamMembe__TeamI__681373AD" FromRole="Team" ToRole="TeamMember" />
+    <NavigationProperty Name="TeamProjects" Relationship="Self.FK__TeamProje__TeamI__6BE40491" FromRole="Team" ToRole="TeamProject" />
+  </EntityType>
+  <EntityType Name="TeamMember">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeamId" Type="Int64" Nullable="false" />
+    <Property Name="EmpId" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__TeamMembe__EmpId__690797E6" FromRole="TeamMember" ToRole="Employee" />
+    <NavigationProperty Name="Team" Relationship="Self.FK__TeamMembe__TeamI__681373AD" FromRole="TeamMember" ToRole="Team" />
+  </EntityType>
+  <EntityType Name="TeamProject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeamId" Type="Int64" Nullable="false" />
+    <Property Name="ProjectId" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Project" Relationship="Self.FK__TeamProje__Proje__6CD828CA" FromRole="TeamProject" ToRole="Project" />
+    <NavigationProperty Name="Team" Relationship="Self.FK__TeamProje__TeamI__6BE40491" FromRole="TeamProject" ToRole="Team" />
+  </EntityType>
+  <EntityType Name="Token">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AuthToken" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EmpId" Type="Int64" Nullable="false" />
+    <Property Name="Created" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Expiry" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK__Token__EmpId__5BAD9CC8" FromRole="Token" ToRole="Employee" />
+  </EntityType>
+  <Association Name="FK__LeadCommu__Commu__4222D4EF">
+    <End Role="CommunicationType" Type="Self.CommunicationType" Multiplicity="1" />
+    <End Role="LeadCommunication" Type="Self.LeadCommunication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CommunicationType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LeadCommunication">
+        <PropertyRef Name="CommunicationTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Employee__Compan__21B6055D">
+    <End Role="Company" Type="Self.Company" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Lead__CompanyId__36B12243">
+    <End Role="Company" Type="Self.Company" Multiplicity="1" />
+    <End Role="Lead" Type="Self.Lead" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Lead">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Company__6FE99F9F">
+    <End Role="Company" Type="Self.Company" Multiplicity="1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Role__CompanyId__15502E78">
+    <End Role="Company" Type="Self.Company" Multiplicity="1" />
+    <End Role="Role" Type="Self.Role" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Role">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Status__CompanyI__6D0D32F4">
+    <End Role="Company" Type="Self.Company" Multiplicity="0..1" />
+    <End Role="Status" Type="Self.Status" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Status">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Team__CompanyId__607251E5">
+    <End Role="Company" Type="Self.Company" Multiplicity="1" />
+    <End Role="Team" Type="Self.Team" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Company">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Team">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EmployeeR__Emplo__4AB81AF0">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="EmployeeRole" Type="Self.EmployeeRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EmployeeRole">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Epic__CreatedBy__1332DBDC">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Epic" Type="Self.Epic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Epic">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Epic__ModifiedBy__14270015">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Epic" Type="Self.Epic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Epic">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Epic__OwnerEmpId__151B244E">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Epic" Type="Self.Epic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Epic">
+        <PropertyRef Name="OwnerEmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EpicAudit__Creat__3493CFA7">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="EpicAuditLog" Type="Self.EpicAuditLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EpicAuditLog">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Feature__Created__2A164134">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Feature" Type="Self.Feature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feature">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Feature__Modifie__2B0A656D">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Feature" Type="Self.Feature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feature">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Feature__OwnerEm__2BFE89A6">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Feature" Type="Self.Feature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feature">
+        <PropertyRef Name="OwnerEmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__FeatureAu__Creat__58D1301D">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="FeatureAuditLog" Type="Self.FeatureAuditLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FeatureAuditLog">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Lead__CreatedBy__3A81B327">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Lead" Type="Self.Lead" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Lead">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Lead__ModifiedBy__3B75D760">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Lead" Type="Self.Lead" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Lead">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Lead__OwnerEmpID__38996AB5">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Lead" Type="Self.Lead" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Lead">
+        <PropertyRef Name="OwnerEmpID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LeadCommu__Creat__46E78A0C">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="LeadCommunication" Type="Self.LeadCommunication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LeadCommunication">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LeadCommu__Modif__47DBAE45">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="LeadCommunication" Type="Self.LeadCommunication" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LeadCommunication">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Permissio__Creat__32E0915F">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Permission" Type="Self.Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Permission">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Permissio__Modif__33D4B598">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Permission" Type="Self.Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Permission">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Created__75A278F5">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Modifie__76969D2E">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__OwnerEm__787EE5A0">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="OwnerEmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectDo__Creat__531856C7">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="ProjectDocument" Type="Self.ProjectDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectDocument">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectDo__Modif__540C7B00">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="ProjectDocument" Type="Self.ProjectDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectDocument">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectDo__Owner__51300E55">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="ProjectDocument" Type="Self.ProjectDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectDocument">
+        <PropertyRef Name="OwnerEmpID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Task__CreatedBy__3F115E1A">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Task__ModifiedBy__40058253">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="ModifiedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Task__OwnerEmpId__40F9A68C">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="OwnerEmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TaskAudit__Creat__4C6B5938">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="TaskAuditLog" Type="Self.TaskAuditLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TaskAuditLog">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TaskProgr__Creat__47A6A41B">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="TaskProgress" Type="Self.TaskProgress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TaskProgress">
+        <PropertyRef Name="CreatedBy" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TeamMembe__EmpId__690797E6">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="TeamMember" Type="Self.TeamMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeamMember">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Token__EmpId__5BAD9CC8">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Token" Type="Self.Token" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Token">
+        <PropertyRef Name="EmpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EmployeeR__RoleI__4BAC3F29">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="EmployeeRole" Type="Self.EmployeeRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EmployeeRole">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Permissio__Entit__300424B4">
+    <End Role="Entity" Type="Self.Entity" Multiplicity="1" />
+    <End Role="Permission" Type="Self.Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Permission">
+        <PropertyRef Name="EntityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Epic__ProjectId__0C85DE4D">
+    <End Role="Project" Type="Self.Project" Multiplicity="1" />
+    <End Role="Epic" Type="Self.Epic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Epic">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Epic__Status__10566F31">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Epic" Type="Self.Epic" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Epic">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EpicAudit__EpicI__32AB8735">
+    <End Role="Epic" Type="Self.Epic" Multiplicity="1" />
+    <End Role="EpicAuditLog" Type="Self.EpicAuditLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Epic">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EpicAuditLog">
+        <PropertyRef Name="EpicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Feature__EpicId__236943A5">
+    <End Role="Epic" Type="Self.Epic" Multiplicity="1" />
+    <End Role="Feature" Type="Self.Feature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Epic">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feature">
+        <PropertyRef Name="EpicId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Feature__Status__2739D489">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Feature" Type="Self.Feature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Feature">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__FeatureAu__Featu__56E8E7AB">
+    <End Role="Feature" Type="Self.Feature" Multiplicity="1" />
+    <End Role="FeatureAuditLog" Type="Self.FeatureAuditLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Feature">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FeatureAuditLog">
+        <PropertyRef Name="FeatureId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Task__FeatureId__37703C52">
+    <End Role="Feature" Type="Self.Feature" Multiplicity="1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Feature">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="FeatureId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__LeadId__70DDC3D8">
+    <End Role="Lead" Type="Self.Lead" Multiplicity="0..1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lead">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="LeadId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Permissio__RoleI__2F10007B">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="Permission" Type="Self.Permission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Permission">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Project__Status__73BA3083">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Project" Type="Self.Project" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Project">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ProjectDo__Proje__4F47C5E3">
+    <End Role="Project" Type="Self.Project" Multiplicity="1" />
+    <End Role="ProjectDocument" Type="Self.ProjectDocument" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProjectDocument">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TeamProje__Proje__6CD828CA">
+    <End Role="Project" Type="Self.Project" Multiplicity="1" />
+    <End Role="TeamProject" Type="Self.TeamProject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Project">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeamProject">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Task__Status__3B40CD36">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Task" Type="Self.Task" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Task">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TaskAudit__TaskI__4A8310C6">
+    <End Role="Task" Type="Self.Task" Multiplicity="1" />
+    <End Role="TaskAuditLog" Type="Self.TaskAuditLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Task">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TaskAuditLog">
+        <PropertyRef Name="TaskId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TaskProgr__TaskI__43D61337">
+    <End Role="Task" Type="Self.Task" Multiplicity="1" />
+    <End Role="TaskProgress" Type="Self.TaskProgress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Task">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TaskProgress">
+        <PropertyRef Name="TaskId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TeamMembe__TeamI__681373AD">
+    <End Role="Team" Type="Self.Team" Multiplicity="1" />
+    <End Role="TeamMember" Type="Self.TeamMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeamMember">
+        <PropertyRef Name="TeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TeamProje__TeamI__6BE40491">
+    <End Role="Team" Type="Self.Team" Multiplicity="1" />
+    <End Role="TeamProject" Type="Self.TeamProject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TeamProject">
+        <PropertyRef Name="TeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WORKAHOLICEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CommunicationTypes" EntityType="Self.CommunicationType" />
+    <EntitySet Name="Companies" EntityType="Self.Company" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="EmployeeRoles" EntityType="Self.EmployeeRole" />
+    <EntitySet Name="Entities" EntityType="Self.Entity" />
+    <EntitySet Name="Epics" EntityType="Self.Epic" />
+    <EntitySet Name="EpicAuditLogs" EntityType="Self.EpicAuditLog" />
+    <EntitySet Name="Features" EntityType="Self.Feature" />
+    <EntitySet Name="FeatureAuditLogs" EntityType="Self.FeatureAuditLog" />
+    <EntitySet Name="Leads" EntityType="Self.Lead" />
+    <EntitySet Name="LeadCommunications" EntityType="Self.LeadCommunication" />
+    <EntitySet Name="Permissions" EntityType="Self.Permission" />
+    <EntitySet Name="Projects" EntityType="Self.Project" />
+    <EntitySet Name="ProjectDocuments" EntityType="Self.ProjectDocument" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="Status" EntityType="Self.Status" />
+    <EntitySet Name="Tasks" EntityType="Self.Task" />
+    <EntitySet Name="TaskAuditLogs" EntityType="Self.TaskAuditLog" />
+    <EntitySet Name="TaskProgresses" EntityType="Self.TaskProgress" />
+    <EntitySet Name="Teams" EntityType="Self.Team" />
+    <EntitySet Name="TeamMembers" EntityType="Self.TeamMember" />
+    <EntitySet Name="TeamProjects" EntityType="Self.TeamProject" />
+    <EntitySet Name="Tokens" EntityType="Self.Token" />
+    <AssociationSet Name="FK__LeadCommu__Commu__4222D4EF" Association="Self.FK__LeadCommu__Commu__4222D4EF">
+      <End Role="CommunicationType" EntitySet="CommunicationTypes" />
+      <End Role="LeadCommunication" EntitySet="LeadCommunications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Employee__Compan__21B6055D" Association="Self.FK__Employee__Compan__21B6055D">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Lead__CompanyId__36B12243" Association="Self.FK__Lead__CompanyId__36B12243">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Lead" EntitySet="Leads" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Company__6FE99F9F" Association="Self.FK__Project__Company__6FE99F9F">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Role__CompanyId__15502E78" Association="Self.FK__Role__CompanyId__15502E78">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Role" EntitySet="Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Status__CompanyI__6D0D32F4" Association="Self.FK__Status__CompanyI__6D0D32F4">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Status" EntitySet="Status" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Team__CompanyId__607251E5" Association="Self.FK__Team__CompanyId__607251E5">
+      <End Role="Company" EntitySet="Companies" />
+      <End Role="Team" EntitySet="Teams" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EmployeeR__Emplo__4AB81AF0" Association="Self.FK__EmployeeR__Emplo__4AB81AF0">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EmployeeRole" EntitySet="EmployeeRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Epic__CreatedBy__1332DBDC" Association="Self.FK__Epic__CreatedBy__1332DBDC">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Epic" EntitySet="Epics" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Epic__ModifiedBy__14270015" Association="Self.FK__Epic__ModifiedBy__14270015">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Epic" EntitySet="Epics" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Epic__OwnerEmpId__151B244E" Association="Self.FK__Epic__OwnerEmpId__151B244E">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Epic" EntitySet="Epics" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EpicAudit__Creat__3493CFA7" Association="Self.FK__EpicAudit__Creat__3493CFA7">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="EpicAuditLog" EntitySet="EpicAuditLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Feature__Created__2A164134" Association="Self.FK__Feature__Created__2A164134">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Feature" EntitySet="Features" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Feature__Modifie__2B0A656D" Association="Self.FK__Feature__Modifie__2B0A656D">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Feature" EntitySet="Features" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Feature__OwnerEm__2BFE89A6" Association="Self.FK__Feature__OwnerEm__2BFE89A6">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Feature" EntitySet="Features" />
+    </AssociationSet>
+    <AssociationSet Name="FK__FeatureAu__Creat__58D1301D" Association="Self.FK__FeatureAu__Creat__58D1301D">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="FeatureAuditLog" EntitySet="FeatureAuditLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Lead__CreatedBy__3A81B327" Association="Self.FK__Lead__CreatedBy__3A81B327">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Lead" EntitySet="Leads" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Lead__ModifiedBy__3B75D760" Association="Self.FK__Lead__ModifiedBy__3B75D760">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Lead" EntitySet="Leads" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Lead__OwnerEmpID__38996AB5" Association="Self.FK__Lead__OwnerEmpID__38996AB5">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Lead" EntitySet="Leads" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LeadCommu__Creat__46E78A0C" Association="Self.FK__LeadCommu__Creat__46E78A0C">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="LeadCommunication" EntitySet="LeadCommunications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LeadCommu__Modif__47DBAE45" Association="Self.FK__LeadCommu__Modif__47DBAE45">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="LeadCommunication" EntitySet="LeadCommunications" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Permissio__Creat__32E0915F" Association="Self.FK__Permissio__Creat__32E0915F">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Permission" EntitySet="Permissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Permissio__Modif__33D4B598" Association="Self.FK__Permissio__Modif__33D4B598">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Permission" EntitySet="Permissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Created__75A278F5" Association="Self.FK__Project__Created__75A278F5">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Modifie__76969D2E" Association="Self.FK__Project__Modifie__76969D2E">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__OwnerEm__787EE5A0" Association="Self.FK__Project__OwnerEm__787EE5A0">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectDo__Creat__531856C7" Association="Self.FK__ProjectDo__Creat__531856C7">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="ProjectDocument" EntitySet="ProjectDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectDo__Modif__540C7B00" Association="Self.FK__ProjectDo__Modif__540C7B00">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="ProjectDocument" EntitySet="ProjectDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectDo__Owner__51300E55" Association="Self.FK__ProjectDo__Owner__51300E55">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="ProjectDocument" EntitySet="ProjectDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Task__CreatedBy__3F115E1A" Association="Self.FK__Task__CreatedBy__3F115E1A">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Task__ModifiedBy__40058253" Association="Self.FK__Task__ModifiedBy__40058253">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Task__OwnerEmpId__40F9A68C" Association="Self.FK__Task__OwnerEmpId__40F9A68C">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TaskAudit__Creat__4C6B5938" Association="Self.FK__TaskAudit__Creat__4C6B5938">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="TaskAuditLog" EntitySet="TaskAuditLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TaskProgr__Creat__47A6A41B" Association="Self.FK__TaskProgr__Creat__47A6A41B">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="TaskProgress" EntitySet="TaskProgresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TeamMembe__EmpId__690797E6" Association="Self.FK__TeamMembe__EmpId__690797E6">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="TeamMember" EntitySet="TeamMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Token__EmpId__5BAD9CC8" Association="Self.FK__Token__EmpId__5BAD9CC8">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Token" EntitySet="Tokens" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EmployeeR__RoleI__4BAC3F29" Association="Self.FK__EmployeeR__RoleI__4BAC3F29">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="EmployeeRole" EntitySet="EmployeeRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Permissio__Entit__300424B4" Association="Self.FK__Permissio__Entit__300424B4">
+      <End Role="Entity" EntitySet="Entities" />
+      <End Role="Permission" EntitySet="Permissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Epic__ProjectId__0C85DE4D" Association="Self.FK__Epic__ProjectId__0C85DE4D">
+      <End Role="Project" EntitySet="Projects" />
+      <End Role="Epic" EntitySet="Epics" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Epic__Status__10566F31" Association="Self.FK__Epic__Status__10566F31">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Epic" EntitySet="Epics" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EpicAudit__EpicI__32AB8735" Association="Self.FK__EpicAudit__EpicI__32AB8735">
+      <End Role="Epic" EntitySet="Epics" />
+      <End Role="EpicAuditLog" EntitySet="EpicAuditLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Feature__EpicId__236943A5" Association="Self.FK__Feature__EpicId__236943A5">
+      <End Role="Epic" EntitySet="Epics" />
+      <End Role="Feature" EntitySet="Features" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Feature__Status__2739D489" Association="Self.FK__Feature__Status__2739D489">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Feature" EntitySet="Features" />
+    </AssociationSet>
+    <AssociationSet Name="FK__FeatureAu__Featu__56E8E7AB" Association="Self.FK__FeatureAu__Featu__56E8E7AB">
+      <End Role="Feature" EntitySet="Features" />
+      <End Role="FeatureAuditLog" EntitySet="FeatureAuditLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Task__FeatureId__37703C52" Association="Self.FK__Task__FeatureId__37703C52">
+      <End Role="Feature" EntitySet="Features" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__LeadId__70DDC3D8" Association="Self.FK__Project__LeadId__70DDC3D8">
+      <End Role="Lead" EntitySet="Leads" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Permissio__RoleI__2F10007B" Association="Self.FK__Permissio__RoleI__2F10007B">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Permission" EntitySet="Permissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Project__Status__73BA3083" Association="Self.FK__Project__Status__73BA3083">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Project" EntitySet="Projects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ProjectDo__Proje__4F47C5E3" Association="Self.FK__ProjectDo__Proje__4F47C5E3">
+      <End Role="Project" EntitySet="Projects" />
+      <End Role="ProjectDocument" EntitySet="ProjectDocuments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TeamProje__Proje__6CD828CA" Association="Self.FK__TeamProje__Proje__6CD828CA">
+      <End Role="Project" EntitySet="Projects" />
+      <End Role="TeamProject" EntitySet="TeamProjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Task__Status__3B40CD36" Association="Self.FK__Task__Status__3B40CD36">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Task" EntitySet="Tasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TaskAudit__TaskI__4A8310C6" Association="Self.FK__TaskAudit__TaskI__4A8310C6">
+      <End Role="Task" EntitySet="Tasks" />
+      <End Role="TaskAuditLog" EntitySet="TaskAuditLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TaskProgr__TaskI__43D61337" Association="Self.FK__TaskProgr__TaskI__43D61337">
+      <End Role="Task" EntitySet="Tasks" />
+      <End Role="TaskProgress" EntitySet="TaskProgresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TeamMembe__TeamI__681373AD" Association="Self.FK__TeamMembe__TeamI__681373AD">
+      <End Role="Team" EntitySet="Teams" />
+      <End Role="TeamMember" EntitySet="TeamMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TeamProje__TeamI__6BE40491" Association="Self.FK__TeamProje__TeamI__6BE40491">
+      <End Role="Team" EntitySet="Teams" />
+      <End Role="TeamProject" EntitySet="TeamProjects" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

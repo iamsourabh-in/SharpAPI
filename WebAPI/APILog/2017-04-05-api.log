@@ -1,0 +1,7 @@
+2017-04-05 21:30:15.1400|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/Company
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

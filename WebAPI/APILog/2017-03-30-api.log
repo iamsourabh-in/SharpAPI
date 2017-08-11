@@ -1,0 +1,520 @@
+2017-03-30 14:36:24.9440|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:39:56.6800|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:41:37.0950|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:41:44.4600|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:41:50.7230|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:49:16.7600|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:49:22.1030|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:53:40.8355|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:55:47.4415|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:55:54.5645|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:56:21.5945|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:56:27.3695|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 14:57:40.6165|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:08:54.7405|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:11:06.7825|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:11:46.8295|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:11:59.7095|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:12:19.9945|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:14:00.5465|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:14:44.4165|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:18:05.2695|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:24:32.0055|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:25:22.5205|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:27:44.1475|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:28:32.5695|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 15:29:09.0345|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:28:33.4380|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:28:56.9290|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:35:46.7070|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:36:22.1705|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:37:02.7975|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:39:23.7715|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:41:02.4325|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:41:52.5385|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:51:32.5005|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 16:52:31.9075|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:22:22.4440|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:22:38.0990|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:23:30.1590|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:24:07.9160|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:24:10.9980|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:24:34.6910|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:28:09.8830|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:28:15.2650|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:28:40.9440|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:38:12.3700|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:41:23.3510|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1002,"FirstName":"Sourabh","LastName":"Rustagi","DOB":null,"Gender":null,"Email":"sourabh.rustagi@hotmail.com","Contact":"1234567890","Alias":null,"EmployeeCode":null,"Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":null,"Modified":null,"ModifiedBy":null,"Password":"1234567890"}}]}
+
+2017-03-30 18:42:18.9270|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 18:46:27.4460|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1003,"FirstName":"Saurabh","LastName":"Gupta","DOB":null,"Gender":null,"Email":"sourabh.rustagi.angel@gmail.com","Contact":"23456789141231","Alias":null,"EmployeeCode":"123123","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":null,"Modified":null,"ModifiedBy":null,"Password":"1234567890"}}]}
+
+2017-03-30 18:48:11.0975|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1003,"FirstName":"Saurabh","LastName":"Gupta","DOB":null,"Gender":null,"Email":"sourabh.rustagi.angel@gmail.com","Contact":"23456789141231","Alias":null,"EmployeeCode":"123123","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":null,"Modified":null,"ModifiedBy":null,"Password":"1234567890"}}]}
+
+2017-03-30 18:57:34.1705|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 19:09:57.2685|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 19:10:01.3030|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 19:10:04.9760|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 19:18:22.9075|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 19:18:45.8820|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1002,"FirstName":"Saurabh","LastName":"Kumar","DOB":null,"Gender":null,"Email":"sourabh.rustagi.angel@gmail.com","Contact":"asdasd","Alias":null,"EmployeeCode":"asdasdasd","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":"Registeration","Modified":null,"ModifiedBy":null,"Password":"asdasdasd"}}]}
+
+2017-03-30 19:19:26.1710|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1002,"FirstName":"Saurabh","LastName":"Kumar","DOB":null,"Gender":null,"Email":"sourabh.rustagi.angel@gmail.com","Contact":"asdasd","Alias":null,"EmployeeCode":"asdasdasd","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":"Registeration","Modified":null,"ModifiedBy":null,"Password":"asdasdasd"}}]}
+
+2017-03-30 19:25:22.8670|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1002,"FirstName":"Saurabh","LastName":"Kumar","DOB":null,"Gender":null,"Email":"sourabh.rustagi.angel@gmail.com","Contact":"asdasd","Alias":null,"EmployeeCode":"asdasdasd","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":"Registeration","Modified":null,"ModifiedBy":null,"Password":"asdasdasd"}}]}
+
+2017-03-30 19:49:35.4900|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 19:50:05.4065|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 19:50:26.1285|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1003,"FirstName":"asd","LastName":"asd","DOB":null,"Gender":null,"Email":"Saurabh.Gupta@gmail.com","Contact":"23456789141231","Alias":null,"EmployeeCode":"4123","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":"Registeration","Modified":null,"ModifiedBy":null,"Password":"123123123"}}]}
+
+2017-03-30 19:51:21.0740|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1003,"FirstName":"asd","LastName":"asd","DOB":null,"Gender":null,"Email":"sourabh.rustagi.angel@gmail.com","Contact":"23456789141231","Alias":null,"EmployeeCode":"4123","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":"Registeration","Modified":null,"ModifiedBy":null,"Password":"123123123"}}]}
+
+2017-03-30 19:51:34.1940|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 21:00:53.6985|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company
+Token: 
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-03-30 21:04:40.1875|INFO|WebAPI.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:57377/api/register/employee
+Token: 
+Controller : WebAPI.Controllers.RegisterController
+Action : Employee
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"employeeEntity":{"Id":0,"CompanyId":1003,"FirstName":"Sourabh","LastName":"Rustagi","DOB":null,"Gender":null,"Email":"sourabh.rustagi@hotmail.com","Contact":"1234567890","Alias":null,"EmployeeCode":"1234","Enabled":false,"Created":"0001-01-01T00:00:00","CreatedBy":"Registeration","Modified":null,"ModifiedBy":null,"Password":"1234567890"}}]}
+

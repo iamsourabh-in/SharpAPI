@@ -1,0 +1,56 @@
+2017-03-02 19:18:12.1700|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-02 19:20:20.4540|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-02 19:21:44.9830|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-02 21:35:24.3620|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-02 23:52:00.4445|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-02 23:58:07.8665|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
+2017-03-02 23:58:24.2520|INFO|WebAPI.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:57377/api/company/1002
+Token: e64e2acb-a66a-4ab4-aba2-821d3ad79bdc
+Controller : WebAPI.Controllers.CompanyController
+Action : Get
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"id":1002}]}
+
