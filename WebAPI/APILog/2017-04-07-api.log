@@ -1,7 +1,0 @@
-2017-04-07 11:00:54.7330|INFO|WebAPI.Helpers.NLogger|JSON
-Method: GET
-URL: http://localhost:57377/api/register/all
-Controller : WebAPI.Controllers.RegisterController
-Action : all
-Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
-
